@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="fade">
+                <div class="n_text"> 1 / 6 </div>
+                <img src="imagens/pexels-binyamin-mellish-1396132.jpg">
+                <div class="i_text"></div>
+            </div>
+    
+            <div class="fade">
+                <div class="n_text"> 2 / 6 </div>
+                <img src="imagens/pexels-frans-van-heerden-1438834.jpg">
+                <div class="i_text"></div>
+            </div>
+    
+            <div class="fade">
+                <div class="n_text"> 3 / 6 </div>
+                <img src="imagens/pexels-max-rahubovskiy-7031607.jpg">
+                <div class="i_text"></div>
+            </div>
+    
+            <div class="fade">
+                <div class="n_text"> 4 / 6 </div>
+                <img src="imagens/pexels-max-rahubovskiy-7031608.jpg">
+                <div class="i_text"></div>
+            </div>
+    
+            <div class="fade">
+                <div class="n_text"> 5 / 6 </div>
+                <img src="imagens/pexels-pixabay-280229.jpg">
+                <div class="i_text"></div>
+            </div>
+    
+            <div class="fade">
+                <div class="n_text"> 6 / 6 </div>
+                <img src="imagens/pexels-the-lazy-artist-gallery-1642125.jpg">
+                <div class="i_text"></div>
+            </div>
+                
+            <a onclick="plus_slides(-1)" class="prev"> &#10094; </a>
+            <a onclick="plus_slides(1)" class="next"> &#10095; </a>
+
+        </div>
+    
+        <div class="dot_box">
+            <span class="dot" onclick="current_slides(1)"></span>
+            <span class="dot" onclick="current_slides(2)"></span>
+            <span class="dot" onclick="current_slides(3)"></span>
+            <span class="dot" onclick="current_slides(4)"></span>
+            <span class="dot" onclick="current_slides(5)"></span>
+            <span class="dot" onclick="current_slides(6)"></span>
+        </div>
+
+        <audio src="imagens/After Sunrise.mp3" autoplay loop></audio>
+        <script src="js/script.js"></script>
+    </body>
+</html>
